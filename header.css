@@ -1,0 +1,38 @@
+header {
+    height: 50px;
+    width: 100%;
+    background-color:#2d2d44;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-size: 130%;
+
+}
+.header-links {
+    display: flex;
+    padding-right: 50px;
+}
+
+header a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+
+}
+
+.logo {
+display: flex;
+padding-left: 50px;
+
+}
+
+header a:hover {
+    text-decoration: none;
+    color: orangered;
+}
